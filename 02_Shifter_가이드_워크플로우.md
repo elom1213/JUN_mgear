@@ -7,7 +7,7 @@ tags: [mgear, shifter, rigging, workflow]
 > [!info] 이 노트의 기원
 > 2026-06-16 대화에서 출발 — "부위별/다중 팔 리깅을 하려면 공식 문서의 어떤 페이지를
 > 봐야 하나?"라는 질문에 답하기 위해, 가이드 생성→빌드 절차와 봐야 할 문서 섹션을 정리.
-> 질문 원문 → [[05_질문_기록]]
+> 질문 원문 → [[질문_기록]]
 
 > 상위: [[00_MOC_mgear]] · 개념 배경: [[01_mgear와_Shifter_개요]]
 
@@ -29,12 +29,12 @@ tags: [mgear, shifter, rigging, workflow]
 
 📄 `shifterUserDocumentation.html` 안의 섹션들:
 
-| 섹션 | 무엇을 보나 |
-|------|-------------|
-| **Shifter Guide Manager** | 가이드 루트 생성, 컴포넌트를 추가(draw)하는 UI |
-| **Guide Operations** | 컴포넌트 복제·미러·재부모(re-parent) 등 가이드 조작 |
-| **Guide Settings** | 가이드 전역 설정 |
-| **Rig Builder** | 배치된 가이드를 실제 리그로 빌드 |
+| 섹션                               | 무엇을 보나                               |
+| -------------------------------- | ------------------------------------ |
+| **Shifter Guide Manager**        | 가이드 루트 생성, 컴포넌트를 추가(draw)하는 UI       |
+| **Guide Operations**             | 컴포넌트 복제·미러·재부모(re-parent) 등 가이드 조작   |
+| **Guide Settings**               | 가이드 전역 설정                            |
+| **Rig Builder**                  | 배치된 가이드를 실제 리그로 빌드                   |
 | Guide Template Manager / Samples | (참고) 전신 템플릿 불러오기 — 부위별 작업엔 굳이 안 써도 됨 |
 
 > 부위별/크리쳐 리깅의 핵심은 **Guide Manager + Guide Operations**.
